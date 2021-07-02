@@ -1,0 +1,13 @@
+{
+	"name": "publishscriptingopml",
+	"description": "A simple server that copies scripting.com's OPML to the instantOutlines project on GitHub, when pinged.",
+	"version": "0.4.2",
+	"main": "pubscriptopml.js",
+	"dependencies" : {
+		"request": "*",
+		"daveutils": "*",
+		"opmltojs": "*",
+		"davehttp": "*",
+		"davegithub": "*"
+		} 
+	}
